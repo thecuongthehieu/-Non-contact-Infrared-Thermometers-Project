@@ -23,12 +23,12 @@
 #define DELAY_5X    (5 * DELAY_SEED)
 
 /* WIFI CONNECTION INF*/
-String WIFI_NAME = "\"Cuong Hieu\"";
-String WIFI_PASSWORD = "\"phanboichau\"";
+String WIFI_NAME = "\"realme C2\"";
+String WIFI_PASSWORD = "\"99999999\"";
 
 /* SERVER CONNECTION*/
-String HOST = "\"f4e695bc.ngrok.io\"";
-String HOST_STRING = "f4e695bc.ngrok.io ";
+String HOST = "\"4b4f392a.ngrok.io\"";
+String HOST_STRING = "4b4f392a.ngrok.io";
 String PORT = "80";
 
 

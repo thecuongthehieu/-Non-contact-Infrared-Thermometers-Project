@@ -1,0 +1,170 @@
+<style>
+  body{
+      background: linear-gradient(#66c2ff, #ffeee6);
+  }
+  .nhietdo{
+      margin-top:20%;
+      align-items: center;   
+      color: #FF4000;
+      padding-left: 45%;
+  }
+  b{
+      font-size: 17px;
+  }
+  .sun {
+    position: fixed;
+    border-radius: 50%;
+    background-color:#F7FE2E;
+    margin-top: 80px;
+    margin-left: 950px;
+    top: 0;
+    left: 0;
+    height: 75px;
+    width: 75px;
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .title{
+    line-height: 5px;
+    position:fixed;
+    border-style: solid;
+    border-color:#013ADF;
+    color:#1C1C1C;
+    border-width: 2px;
+    padding:5px 80px 5px 5px;
+    margin: 10px 0px 0px 5px;
+    top: 0;
+    left: 0;
+    font-family:Times New Roman Georgia;
+  }
+  .tias {
+   position: fixed;
+   content: "";
+   border-radius: 30%;
+   background-color:#F7FE2E;
+   margin-top: 80px;
+   margin-left: 950px;
+   height: 8px;
+   width: 25px;
+   animation-name: beattia;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   }
+   #nhiet{
+       display: block;    
+       padding-left:4%;
+   }
+   
+  #tia1{
+      left:95px;
+      top: 30px;
+      animation-timing-function: cubic-bezier(0.1, 0.1, 0.2, 0.1);
+  }
+  
+  #tia2{
+      left:75px;
+      top: -20px;
+      transform: rotate(-45deg);
+      animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  }
+  
+  #tia3{
+      left:25px;
+      top: -35px;
+      transform: rotate(-90deg);
+     animation-timing-function: cubic-bezier(0.8, 0.9, 0.3, 1);
+  }
+  
+  #tia4{
+      left:-25px;
+      top: -20px;
+      transform: rotate(-135deg);
+      animation-timing-function: cubic-bezier(0.69, 0.1, 1, 0.1);
+  }
+  
+  #tia5{
+      left:-40px;
+      top: 30px;
+      transform: rotate(180deg);
+     animation-timing-function: cubic-bezier(0.1, 0.1, 0.2, 0.1);
+  }
+  
+  #tia6{
+      left:-25px;
+      top: 80px;
+      transform: rotate(135deg);
+      animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1);
+  }
+  
+  #tia7{
+      left:25px;
+      top: 100px;
+      transform: rotate(-90deg);
+      animation-timing-function: cubic-bezier(0.8, 0.9, 0.3, 1);
+  }
+  
+  #tia8{
+      left:75px;
+      top: 80px;
+      transform: rotate(45deg);
+      animation-timing-function: cubic-bezier(0.69, 0.1, 1, 0.1);
+  }
+  #member{
+      line-height: 20px;
+  }
+@keyframes backdiv {
+  50% {
+    background: #ffe6f2;
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}
+@keyframes beattia {
+  0% {
+    width: 25px;
+  }
+  50% {
+    width: 30px;
+  }
+}
+
+ 
+</style>
+<html>
+<body>
+  <div class="nhietdo">
+      <h1 id="1"> Hanoi, Vietnam</h1>
+      <h2 id="nhiet"> Temperature: {{response}} </h2>
+  
+  </div>
+  
+  <div class="title" id="title">
+      <!--<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>-->
+      <p><b> Project</b>: MicroProcessor ATmega32</p>
+      <b>Team</b>
+      <ol id="member">
+          <li>Nguyễn Thọ Thế Cường</li>
+          <li>Nguyễn Thành Đô</li>
+      </o{{response}}
+      <p><b>Class:</b> KSTN Cơ Điện Tử</p>
+  </div>
+  
+  <div class="tias" id="tia1"></div>
+  <div class="tias" id="tia2"></div>
+  <div class="tias" id="tia3"></div>
+  <div class="tias" id="tia4"></div>
+  <div class="tias" id="tia5"></div>
+  <div class="tias" id="tia6"></div>
+  <div class="tias" id="tia7"></div>
+  <div class="tias" id="tia8"></div>
+  <div class="sun"></div>
+</body>
+</html>

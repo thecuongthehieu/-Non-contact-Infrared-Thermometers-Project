@@ -26,12 +26,12 @@ void setup(){
 }
 
 void loop(){
-//  char customKey = customKeypad.getKey();
-//  if (customKey){
-//    lcd.clear();
-//    lcd.setCursor(0, 0); 
-//    lcd.print(customKey);
-//  }
+  char customKey = customKeypad.getKey();
+  if (customKey){
+    lcd.clear();
+    lcd.setCursor(0, 0); 
+    lcd.print(customKey);
+  }
 
 
 }
